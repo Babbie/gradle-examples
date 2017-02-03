@@ -1,7 +1,14 @@
-# Test With Spring Course
+This is an example application of my blog post:
 
-If you are struggling to write good automated tests for Spring web applications, you are not alone! [I have launched a video course](https://www.testwithspring.com/?utm_source=github&utm_medium=social&utm_content=gradle&utm_campaign=test-with-spring-course-presales) that describes how you can write automated tests which embrace change and help you to save your time (and nerves).
+* [Getting Started with Gradle: Our First Java Project](http://www.petrikainulainen.net/programming/gradle/getting-started-with-gradle-our-first-java-project/)
 
-# Getting Started With Gradle
+You can package the application by running one of the following commands at command prompt:
 
-This repository contains the example applications of my [Getting Started With Gradle](http://www.petrikainulainen.net/getting-started-with-gradle/) tutorial.
+    gradle assemble (runs only the tasks required to create the jar file)
+    gradle build (runs the full build)
+
+Both commands create a jar file called _first-java-project.jar_ to the _build/libs_ directory.
+    
+You can run the application by running the following command at command prompt:
+
+    java -jar first-java-project.jar
